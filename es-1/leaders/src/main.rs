@@ -16,6 +16,6 @@ pub fn leaders(arr: &[i32]) -> Vec<i32> {
 
 fn main() {
     let arr: Vec<i32> = vec![16, 17, 4, 3, 5, 2];
-    let leaders: Vec<i32> = Solution::leaders(&arr);
+    let leaders: Vec<i32> = leaders(&arr);
     println!("{:?}", leaders); // Output will be [17, 5, 2]
 }
